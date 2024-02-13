@@ -1,0 +1,15 @@
+//para crear un proyecto local en github
+git init
+
+//para saber el estado de los archivos del proyecto (para saber cuales fueron modificados)
+git status
+
+//para añadir los archivos modificados al stack
+git add .
+git add nombre del archivo
+
+//para preparar la subida de los cambios
+git commit -m "Se modificó tal cosa de tal modulo"
+
+//para subir ahora si los cambios a github
+git push origin nombre de la rama
